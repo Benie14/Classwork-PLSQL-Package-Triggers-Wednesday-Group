@@ -35,10 +35,14 @@ The project demonstrates:
 
 * **Purpose**: Monitors failed login attempts.
 * **Logic**:
+ -- Good way of storing all login attempts for tracking security issues.
 
   1. Tracks failed login attempts per user per day.
   2. If failed attempts exceed 2, a record is inserted into `security_alerts`.
 * **Implementation**: Used a **compound trigger** to avoid mutating table errors.
+
+-- This trigger is a good way to monitor failed logins automatically.
+-- Helps send alerts when someone tries too many times.
 
 ---
 
