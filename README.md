@@ -42,6 +42,7 @@ The project demonstrates:
 * **Implementation**: Used a **compound trigger** to avoid mutating table errors.
 
 -- This trigger is a good way to monitor failed logins automatically.
+
 -- Helps send alerts when someone tries too many times.
 
 ---
