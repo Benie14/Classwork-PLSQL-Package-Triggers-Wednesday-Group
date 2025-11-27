@@ -20,6 +20,8 @@ The project demonstrates:
 | `login_audit`     | Stores all user login attempts                 | `audit_id` (PK), `username`, `attempt_time`, `status` (SUCCESS/FAILED), `ip_address`           |
 | `security_alerts` | Stores security alerts for suspicious activity | `alert_id` (PK), `username`, `failed_attempts`, `alert_time`, `alert_message`, `contact_email` |
 
+-- Good way of storing all login attempts for tracking security issues.
+-- This table helps detect suspicious users with too many failed logins.
 ### **Hospital Management System**
 
 | Table      | Description                | Columns                                                        |
