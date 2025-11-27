@@ -161,10 +161,3 @@ PRINT total;
 * Bulk patient data can be inserted efficiently.
 * Patient admission status is tracked correctly.
 * All procedures and functions can be reused in other scripts or applications.
-
-
-## 9. comments 
-
-/ i Espoir Mugsha 
-"Great work! The project is well-organized and clearly demonstrates strong understanding of PL/SQL, triggers, and bulk processing."
-/
