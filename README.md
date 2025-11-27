@@ -168,3 +168,5 @@ PRINT total;
 * Bulk patient data can be inserted efficiently.
 * Patient admission status is tracked correctly.
 * All procedures and functions can be reused in other scripts or applications.
+
+Thank you
